@@ -1,5 +1,7 @@
 # Introduction to Design Patterns: Brewing Better Code with Coffee Examples
 
+[![Node.js CI](https://github.com/tommyshado/brewing-better-code/actions/workflows/node.js.yml/badge.svg)](https://github.com/tommyshado/brewing-better-code/actions/workflows/node.js.yml)
+
 Welcome to this hands-on tutorial on design patterns! In this series, we will demystify some of the most commonly used design patterns in software development through the engaging and familiar theme of coffee. 
 
 ## What Are Design Patterns?
