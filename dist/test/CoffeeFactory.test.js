@@ -5,7 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const assert_1 = __importDefault(require("assert"));
 const CoffeeFactory_1 = __importDefault(require("../src/SingletonPattern/CoffeeFactory"));
-const CoffeeTypes_1 = require("../src/SingletonPattern/CoffeeTypes");
+const CoffeeTypes_1 = require("../src/CoffeeTypes");
 describe("CoffeeFactory", () => {
     const coffeeFactory = CoffeeFactory_1.default.getInstance();
     it("should get the same instance when called", () => {

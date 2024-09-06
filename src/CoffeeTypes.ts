@@ -1,5 +1,6 @@
 export enum CoffeeTypes {
     Espresso = 'Espresso',
     FrenchPress = 'FrenchPress',
-    Americano = 'Americano'
+    Americano = 'Americano',
+    Latte = 'Latte'
 };

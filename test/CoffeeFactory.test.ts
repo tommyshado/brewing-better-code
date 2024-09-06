@@ -1,6 +1,6 @@
 import assert from "assert";
 import CoffeeFactory from "../src/SingletonPattern/CoffeeFactory";
-import { CoffeeTypes } from "../src/SingletonPattern/CoffeeTypes";
+import { CoffeeTypes } from "../src/CoffeeTypes";
 
 describe("CoffeeFactory", () => {
     const coffeeFactory = CoffeeFactory.getInstance();
