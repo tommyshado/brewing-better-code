@@ -35,10 +35,11 @@ describe("CoffeeBuilder", () => {
   describe("CoffeeDirector", () => {
       it("CoffeeBuilder should use CoffeeDirector to make an Espressso with milk", () => {
       const coffeDirector = new CoffeeDirector(new CoffeeBuilder());
-      const results = coffeDirector.makeCoffeeWithMilk(
+      const results = coffeDirector.makeCoffee(
         CoffeeTypes.Espresso,
         "Medium",
-        1
+        1,
+        true
       );
       assert.deepEqual(results.build(), {
         type: "Espresso",
@@ -47,9 +48,9 @@ describe("CoffeeBuilder", () => {
         milk: true,
       });
     });
-    it("CoffeeBuilder should use CoffeeDirector to make an Espressso with milk", () => {
+    it("CoffeeBuilder should use CoffeeDirector to make a Latte without milk", () => {
         const coffeDirector = new CoffeeDirector(new CoffeeBuilder());
-        const results = coffeDirector.makeCoffeeWithoutMilk(
+        const results = coffeDirector.makeCoffee(
           CoffeeTypes.Latte,
           "Medium",
           1
